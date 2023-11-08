@@ -1,0 +1,48 @@
+body {
+    background-color: hsl(212, 45%, 89%); 
+    max-width: 1440px; 
+    margin: auto;
+}
+
+.attribution { 
+    font-size: 15px; 
+    text-align: center; 
+    position: absolute; 
+    top: 92%; left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.qrcard {
+  text-align: center;
+  border-radius: 15px;
+  width: 300px;
+  padding: 15px;
+  background-color: white;
+  font-size: 15px;
+  font-family: 'Outfit';
+  padding-bottom: 30px;
+  height: auto;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.qrcard img { 
+    width: 300px; 
+    border-radius: 15px;
+}
+
+.qrcard p {
+    color: hsl(220, 15%, 55%);
+}
+
+.text {
+  padding-right: 20px;
+  padding-left: 20px;
+}
